@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "rubik";
+    text-align: center;
+
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+
+    display: grid;
+    place-items: start;
+
+    background-color: #f3f4f6;
+}
+
+.container {
+    max-width: 35rem;
+
+    margin: 5vh auto 0;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+
+    
+}
+
+.container h1 {
+    letter-spacing: .25rem;
+    color: rgb(150, 197, 239);
+}
+
+.review {
+    padding: 2rem;
+
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 10px 15px 15px -3px rgba(0,0,0,0.1);
+}
+
+.review__image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
+    margin: auto;
+    
+}
+
+.review__image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.review__info {
+    margin: 1.5rem 0;
+}
+
+.review__info h2{
+    margin-bottom: .15rem;
+    text-transform: uppercase;
+    color: rgb(82, 82, 207);
+}
+
+.info__job {
+    color: rgb(46, 134, 178);
+    font-weight: 600;
+    margin-bottom: .75rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 2rem;
+
+}
+
+.btn {
+    padding: .5rem 2rem;
+    
+    background-color:rgb(46, 134, 178) ;
+    color: #fff;
+
+    border: none;
+    border-radius: 1rem;
+
+    font-size: 1.25rem;
+    font-weight: 700;
+}
