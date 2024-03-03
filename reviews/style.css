@@ -19,7 +19,7 @@ main {
 .container {
     max-width: 35rem;
 
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
     padding: 2rem;
 
     display: flex;
@@ -62,6 +62,7 @@ main {
 
 .review__info {
     margin: 1.5rem 0;
+    height: 140px;
 }
 
 .review__info h2{
@@ -70,7 +71,7 @@ main {
     color: rgb(82, 82, 207);
 }
 
-.info__job {
+#info__job {
     color: rgb(46, 134, 178);
     font-weight: 600;
     margin-bottom: .75rem;
