@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "rubik";
+    text-transform: uppercase;
+
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+
+    background-color: rgb(181, 184, 214);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container h1{
+    font-size: 4rem;
+}
+
+.container span{
+    font-size: 3.5rem;
+    color: green;
+}
+
+.container button {
+    padding: .5rem 1rem;
+    margin-inline: .5rem;
+    
+    border: none;
+    border-radius: .25rem;
+
+    background-color: #000;
+    color: #fff;
+
+    font-size: 1.5rem;
+}
