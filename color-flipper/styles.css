@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "rubik";
+
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+
+    background-color: rgb(42, 42, 52);
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+
+.container h2 {
+    color: #fff;
+
+}
+
+.button {
+    background-color: #fff;
+    color: rgb(42, 42, 52);;
+
+    padding: .5rem 1rem;
+
+    border: none;
+    border-radius: .5rem ;
+
+    font-weight: 600;
+    cursor: pointer;
+}
+
